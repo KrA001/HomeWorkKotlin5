@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HomeWorkKotlin5</string>
+    <string name="zero">0</string>
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
+    <string name="name">name</string>
+    <string name="cars">cars</string>
+    <string name="wheels">wheels</string>
+    <string name="speed">speed</string>
+</resources>
