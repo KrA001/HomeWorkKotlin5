@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupCount() = with(binding) {
         btnIncrement.setOnClickListener {
-            if (tvCounter.text == "10") {
+            if (count == 10) {
                 val intent = Intent(this@MainActivity, SecondActivity::class.java)
                 startActivity(intent)
             } else {
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnDecrement.setOnClickListener {
-            if (tvCounter.text == "0") {
+            if (count != 0) {
             } else {
                 tvCounter.text = (--count).toString()
             }

@@ -17,7 +17,7 @@ class SecondActivity : AppCompatActivity() {
     }
 
     private fun fillCarsList() {
-        val carsList = mutableListOf(
+        val carsList = listOf(
             Car("Bugatti Divo", R.drawable.bugatti, 4, 380),
             Car("Bmw", R.drawable.ferrari, 4, 290),
             Car("bmw f90", R.drawable.bmwf90, 4, 240),
