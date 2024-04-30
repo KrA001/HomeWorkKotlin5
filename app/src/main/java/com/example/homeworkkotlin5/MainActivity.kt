@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         setupCount()
     }
 
-    private fun setupCount() = with(binding) {
+    private fun setupCount() = with (binding) {
         btnIncrement.setOnClickListener {
             if (count == 10) {
                 val intent = Intent(this@MainActivity, SecondActivity::class.java)
